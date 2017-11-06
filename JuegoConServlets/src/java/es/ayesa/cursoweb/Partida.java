@@ -34,7 +34,7 @@ public class Partida {
         this.jugadaB = jugadaB;
     }
 
-    private String resultado() {
+    public String resultado() {
         String result = null;
         String ganador = null;
         if (getJugadaA() == null || getJugadaA().equals((""))) {
